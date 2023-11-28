@@ -1,0 +1,15 @@
+.bgCustomColor {
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        
+    
+    background: linear-gradient(to top, white, #adadad);
+}
+
+.connectwallet {
+    width: 270px;
+    padding: 10px;
+    font-size: 22px;
+}

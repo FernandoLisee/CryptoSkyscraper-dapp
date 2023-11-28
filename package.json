@@ -1,0 +1,22 @@
+{
+  "name": "crpyto-skyscraper-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "solcjs --abi --include-path node_modules/ --base-path . blockchain/contracts/CryptoSkyscraper.sol --output-dir blockchain/build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bulma": "^0.9.4",
+    "next": "14.0.2",
+    "react": "^18",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18",
+    "solc": "^0.8.23-fixed",
+    "web3": "^4.2.2"
+  }
+}
